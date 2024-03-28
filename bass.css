@@ -1,0 +1,27 @@
+
+.ml-3 {
+    margin-left: 15px;
+}
+.mr-3 {
+    margin-right: 15px;
+}
+section {
+    padding: 15px 0;
+}
+.df {
+    display: flex;
+}
+.italic {
+    font-style: italic;
+}
+/* Footer */
+.custom-bg {
+    background-color: black;
+}
+.configuation th, .configuation td {
+    padding: 10px;
+    font-size: 16px;
+}
+.is-hidden {
+    display: none;
+}
