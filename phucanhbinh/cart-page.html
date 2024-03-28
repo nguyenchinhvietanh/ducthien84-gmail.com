@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sell Phone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cart-page.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="home-page.html">Trang chủ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    DỊCH VỤ CHĂM SÓC LAPTOP-PC
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">THAY MÀN HÌNH LAPTOP TẠI NHÀ</a></li>
+                    <li><a class="dropdown-item" href="#">NÂNG CẤP RAM-BỘ NHỚ</a></li>
+                    <li><a class="dropdown-item" href="#">BÁO GIÁ SỬA CHỮA LAPTOP-PC</a></li>
+                    <li><a class="dropdown-item" href="#">TƯ VẤN LỖI LAPTOP-PC</a></li>
+                    <li><a class="dropdown-item" href="#">VỆ SINH LAPTOP-PC</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="search">
+              <p class="text-white mr-3">Tìm kiếm</p>
+            </div>
+            <form style="width: 30%" class="d-flex form-group" role="search">
+              <i class="fa-solid fa-magnifying-glass search-icon mr-3"></i>
+              <input
+                class="form-control me-2 input-search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <div class="user__input">
+              <a href="register.html" class="login text-white mr-3">Tài khoản</a>
+              <a href="" class="cart text-white">Giỏ hàng</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main id="main">
+      <h3 class="pt-5 text-center">Cart</h3>
+        <div id="cart">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-9 bg-light">
+                  <table class="table">
+                    <col style="width: 60%;">
+                      <thead>
+                        <tr class="fw-bold">
+                          <th scope="col">Sản phẩm</th>
+                          <th scope="col">Giá</th>
+                          <th scope="col">SL</th>
+                          <th scope="col">Chọn</th>
+                        </tr>
+                        
+                      </thead>
+                      <tbody class="tbody">
+                        
+                      </tbody>
+                    </table>
+                    <h6 class="text-end price-total d-block fw-bold p-5 pt-0 pb-1"><span>Tổng tiền: </span><sup>đ</sup> </h6>
+                    <div class="order-product d-flex justify-content-center mt-4 pb-3">
+                      <button class="btn btn-primary">Đặt hàng</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="cart-empty" class="d-none">
+          <div class="container bg-light pt-5 pb-5">
+            <div class="d-flex justify-content-center pt-5 pb-4">
+              <img src="no-cart.png" alt="">
+            </div>
+            <p class="text-center">Không có sản phẩm trong giỏ hàng</p>
+            <div class="d-flex justify-content-center pt-5">
+              <a href="home-page.html" class="btn btn-danger fw-bold text-uppercase">về trang chủ</a>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="pt-5 bg-dark">
+      <section>
+        <div class="container text-white">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12 text-center text-md-start">
+              <div class="title d-flex align-items-baseline text-uppercase justify-content-center justify-content-md-start">
+                <i class="fa fa-solid fa-gem mr-3"></i>
+                <h6 class="">Giới thiệu</h6>
+              </div>
+              <div class="desc">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Blanditiis sed quam eveniet, praesentium id quae doloremque
+                  non officia nesciunt. Aliquid a blanditiis molestias!
+                  Repellendus aperiam nemo incidunt! Non, quas minus?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12 ">
+              <h6 class="text-uppercase text-center text-md-start">Chính sách</h6>
+              <ul class="p-0 text-center text-md-start">
+                <li class="pt-3">Chính sách giao nhận</li>
+                <li class="pt-3">Chính sách đổi trả hàng</li>
+                <li class="pt-3">Phương thức thanh toán</li>
+                <li class="pt-3">Chế độ bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12">
+              <h6 class="text-uppercase text-center text-md-start">Hỗ trợ khách hàng</h6>
+              <ul class="p-0 text-center text-md-start">
+                <li class="pt-3">Giá cả</li>
+                <li class="pt-3">Đổi trả</li>
+                <li class="pt-3">Đặt hàng</li>
+                <li class="pt-3">Bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12">
+              
+                <h6 class="text-uppercase text-center text-md-start">Liên hệ</h6>
+                <ul class="p-0 text-center text-md-start">
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Hà Nội: 
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    298 Đ.Cầu Diễn, Minh Khai, Bắc Từ Liêm
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Hồ Chí Minh: 
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    2 Võ Oanh, Phường 25, Bình Thạnh
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-phone mr-3"></i>
+                    HotLine: 0123456789
+                  </li>
+                </ul>
+              </div>
+          </div>
+            <div class="row justify-content-center align-items-center mb-3 flex-column flex-lg-row">
+              <div class="col-auto col-xs-12">
+                <h6>Đăng ký nhận thông tin khuyến mãi</h6>
+              </div>
+              <div class="col col-md-5 col-xs-12">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              </div>
+              <div class="col-auto col-xs-12 mt-3 mt-lg-0">
+                <a href="#" class="btn btn-dark border">Đăng ký</a>
+              </div>
+            </div>
+            <div class="row custom-bg p-3 m-3 text-center">
+              <div class="col">© 2021 Copyright: Github</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- SCRIPT -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script src="Product.js"></script>
+    <script src="cart-page.js"></script>
+  </body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sell Phone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="products-details.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="home-page.html">Trang chủ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DỊCH VỤ CHĂM SÓC LAPTOP-PC
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">THAY MÀN HÌNH LAPTOP TẠI NHÀ</a></li>
+                  <li><a class="dropdown-item" href="#">NÂNG CẤP RAM-BỘ NHỚ</a></li>
+                  <li><a class="dropdown-item" href="#">BÁO GIÁ SỬA CHỮA LAPTOP-PC</a></li>
+                  <li><a class="dropdown-item" href="#">TƯ VẤN LỖI LAPTOP-PC</a></li>
+                  <li><a class="dropdown-item" href="#">VỆ SINH LAPTOP-PC</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="search">
+              <p class="text-white mr-3">Tìm kiếm</p>
+            </div>
+            <form style="width: 30%" class="d-flex form-group" role="search">
+              <i class="fa-solid fa-magnifying-glass search-icon mr-3"></i>
+              <input
+                class="form-control me-2 input-search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <div class="user__input">
+              <a href="register.html" class="login text-white mr-3">Tài khoản</a>
+              <a href="cart-page.html" class="cart text-white">Giỏ hàng</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main id="main">
+      <!-- Product-detail-->
+        <section id="product-detail">
+            <div class="container">
+                <h5 class="product-title"></h5>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6  col-sm-12 mb-sm-3 col-xs-12">
+                        <!-- Carousel -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="assets/images/pixel6pro/Pixel-6.jpg" class="d-block w-100 img-fluid" style="height: 300px;" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/images/pixel6pro/mau-sac-google-pixel-6-pro.jpg" class="d-block w-100 img-fluid" style="height: 300px;" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/images/pixel6pro/Google-Pixel-6-Pro-sorta-sunny.jpg" class="d-block w-100 img-fluid" style="height: 300px;" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/images/pixel6pro/Google-Pixel-6-Pro-sorta-sunny.jpg" class="d-block w-100 img-fluid" style="height: 300px;" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/images/pixel6pro/pixel-6-pro-stormy-black.jpg" class="d-block w-100 img-fluid" style="height: 300px;" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/images/pixel6pro/Pixel-6-white.jpg" class="d-block w-100 img-fluid" style="height: 300px;" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                        <div class="configution mt-3 bg-light border p-2">
+                            <p class="a d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill mr-3" viewBox="0 0 16 16">
+                                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                                </svg>
+                                6.71", AMOLED, 1440 x 3120 Pixels
+                            </p>
+                            <p class="a d-flex align-items-center mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera mr-3" viewBox="0 0 16 16">
+                                    <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                                    <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                                  </svg>
+                                  50 MP, 48 MP, 12 MP
+                            </p>
+                            <p class="a d-flex align-items-center mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill mr-3" viewBox="0 0 16 16">
+                                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                                </svg>
+                                11.1 MP
+                            </p>
+                            <p class="a d-flex align-items-center mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill mr-3" viewBox="0 0 16 16">
+                                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                                </svg>
+                                Google Tensor
+                            </p>
+                            <p class="a d-flex align-items-center mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-memory mr-3" viewBox="0 0 16 16">
+                                    <path d="M1 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.586a1 1 0 0 0 .707-.293l.353-.353a.5.5 0 0 1 .708 0l.353.353a1 1 0 0 0 .707.293H15a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H1Zm.5 1h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5Zm5 0h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5Zm4.5.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4ZM2 10v2H1v-2h1Zm2 0v2H3v-2h1Zm2 0v2H5v-2h1Zm3 0v2H8v-2h1Zm2 0v2h-1v-2h1Zm2 0v2h-1v-2h1Zm2 0v2h-1v-2h1Z"/>
+                                  </svg>
+                                128GB / 256GB / 512GB
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6">
+                        <div class="option">
+                            <div class="storage">
+                              <span>Bộ nhớ: </span>
+                              <br>
+                              <a href="#" data-index="0" class="storage_1 act">128GB</a>
+                              <a href="#" data-index="0" class="storage_1">256GB</a>
+                              <a href="#" data-index="0" class="storage_1">512GB</a>
+                            </div>
+                            <div class="color">
+                                <span>Màu sắc:</span>
+                                <br>
+                                <a href="#" class="color_1 act" data-index="0">Vàng</a>
+                                <a href="#" class="color_1" data-index="1">Đen</a>
+                                <a href="#" class="color_1" data-index="2">Trắng</a>
+                            </div>
+                        </div>
+                        <div class="price mt-2">
+                          <span>Giá bán:</span>
+                          <br>
+                          <span class="new-price text-danger fw-bold mr-2"></span>
+                          <span class="old-price ml-3"> <strike></strike> </span>
+                        </div>
+                        <div class="bonus mt-2 border  p-2">
+                          <h6 class="fw-bold fs-5 ps-3">Nhận ngay khuyến mãi</h6>
+                          <hr>
+                          <ul class="list-bonus">
+                            <li>Tai nghe không dây Pixel Buds 2</li>
+                            <li>Phiếu mua hàng trị giá 250.000đ</li>
+                            <li>Giảm đến 1,500,000đ khi tham gia thu cũ đổi mới</li>
+                            <li>Trả góp 0%</li>
+                            <li>Giảm 50% giá mua gói bảo hiểm rơi vỡ 6 tháng</li>
+                            <li>Giảm 50% giá gói cước 1 năm(Vina350/Vina500)</li>
+                            <li>Bảo hành 18 tháng</li>
+                            <li>Lỗi 1 đổi 1 trong 30 ngày</li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6  col-sm-12 mb-sm-3 col-xs-12">
+                    <div class="review mt-3">
+                      <h6 class="font-weight-bold">Bài viết giới thiệu</h6>
+                      <p class="rv-desc">Pixel 6 và Pixel 6 Pro đã được Google giới thiệu tại sự kiện Pixel Fall Launch vào hôm 19/10 vừa qua. Bộ đôi Pixel 6 mới mang tới cực kỳ nhiều nâng cấp đáng chú ý, có thể coi như là một bản nâng cấp vượt trội trong toàn bộ dòng sản phẩm Pixel từ trước tới nay, từ thiết kế, camera, hiệu năng với vi xử lý “nhà làm” đầu tiên…</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-6  col-sm-12 mb-sm-3 col-xs-12">
+                      <h6 class="text-success text-uppercase font-weight-bold mt-3">còn hàng</h6>
+                      <p class="d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                          <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                        </svg>
+                       <span class="ml-3"> Xem các cửa hàng có hàng</span>
+                      </p>
+                      <div class="row mt-3">
+                        <div class="col col-lg-12">
+                          <a href="#" class="btn btn-danger w-100 buy__now-btn">
+                            <h6 class="text-center text-uppercase mb-0 font-weight-bold">
+                              Mua ngay
+                            </h6>
+                            <p class="text-center">Giao hàng miễn phí hoặc nhận tại cửa hàng</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="row mt-1 gx-lg-1">
+                        <div class="col col-lg-6 installment">
+                          <a href="#" class="btn btn-primary w-100">
+                            <h6 class="text-center text-uppercase mb-0 font-weight-bold">
+                              Trả góp 0%
+                            </h6>
+                            <p class="text-center">Duyệt hồ sơ trong 5 phút</p>
+                          </a>
+                        </div>
+                        <div class="col col-lg-6 installment-card d-flex  flex-wrap">
+                          <a href="#" class="btn btn-primary w-100">
+                            <h6 class="text-center text-uppercase mb-0 font-weight-bold">
+                              Trả góp qua thẻ
+                            </h6>
+                            <p class="text-center">Visa, Master Card, JCB</p>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6  col-sm-12 mb-sm-3 col-xs-12">
+                    <h6 class="font-weight-bold pt-5 pb-3">Tổng quan về thiết kế</h6>
+                    <img src="assets/images/google-pixel-6-pro-1-600x600.jpg" alt="" class="img-fluid product-img">
+                    <div class="see-more d-flex justify-content-center mt-3">
+                      <button class="btn btn-light view-btn">Xem thêm</button>
+                    </div>
+                  </div>
+                  <div class="col col-lg-6 mt-5 pt-3">
+                    <table class="configuation" style="width: 100%">
+                      <tbody>
+                          <tr class="border">
+                            <h5 class="font-weight-bold">Cấu hình điện thoại Google Pixel 6 Pro</h5>
+                          </tr>
+                          <tr class="border bg-light">
+                            <td>Màn hình:</td>
+                            <td>AMOLED, 6.71", 120Hz, HDR10+</td>
+                          </tr>
+                          <tr class="border">
+                            <td>Hệ điều hành:</td>
+                            <td>Android 12</td>
+                          </tr>
+                          <tr class="border bg-light">
+                            <td>Camera sau:</td>
+                            <td>3 camera (50 MP, 48 MP, 12 MP)</td>
+                          </tr>
+                          <tr class="border">
+                            <td>Camera trước:</td>
+                            <td>11.1 MP</td>
+                          </tr>
+                          <tr class="border bg-light">
+                            <td>CPU:</td>
+                            <td>Google Tensor</td>
+                          </tr>
+                          <tr class="border">
+                            <td>Ram:</td>
+                            <td>12 GB</td>
+                          </tr>
+                          <tr class="border bg-light">
+                            <td>Bộ nhớ trong:</td>
+                            <td>128 GB, 256 GB, 512 GB</td>
+                          </tr>
+                          <tr class="border">
+                            <td>SIM:</td>
+                            <td>1 nano SIM + 1eSIM, hỗ trợ 5G</td>
+                          </tr>
+                          <tr class="border bg-light">
+                            <td>Pin:</td>
+                            <td>5003mAh, sạc nhanh 33W</td>
+                          </tr>
+                          
+                      </tbody>
+                    </table>
+                    <div class="row mt-3 justify-content-center text-center">
+                      <div class="col col-lg-12">
+                        <a href="#" class="btn btn-light border-primary btn-config">Xem chi tiết cấu hình</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+      <!-- Product modal configution -->
+      <section id="modal-config" class="is-hidden">
+        <div class="modal-wrapper">
+          <div class="overLay"></div>
+          <div class="modal-config">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg close-modal" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+            <h5 class="fw-bold text-center mt-3">Cấu hình chi tiết điện thoại Google Pixel 6 Pro</h5>
+            <div class="row justify-content-center mt-3">
+              <div class="col col-lg-7">
+                <table class="table">
+                  <tbody>
+                    <tr class="table-active">
+                      <th colspan="2" class="fw-bold">Màn hình</th>
+                    </tr>
+                    <tr>
+                      <th>Công nghệ màn hình: </th>
+                      <th>LTPO AMOLED</th>
+                    </tr>
+                    <tr>
+                      <th>Độ phân giải: </th>
+                      <th>2K+ (1440 x 3120 pixels)</th>
+                    </tr>
+                    <tr>
+                      <th>Kích thước màn hình: </th>
+                      <th>6.71 icnhs, tần số quét 120Hz</th>
+                    </tr>
+                    <tr>
+                      <th>Mặt kính cảm ứng: </th>
+                      <th>Kính cường lực Corning Gorilla Glass Victus</th>
+                    </tr>
+                    <tr class="table-active">
+                      <th class="fw-bold" colspan="2">Camera sau</th>
+                    </tr>
+                    <tr>
+                      <th>Độ phân giải: </th>
+                      <th>3 camera (50 MP, 48 MP, 12 MP)</th>
+                    </tr>
+                    <tr>
+                      <th>Quay phim:</th>
+                      <th>4K@30/60fps <br>
+                        1080p@30/60/120/240fps</th>
+                    </tr>
+                    <tr>
+                      <th>Đèn flash:</th>
+                      <th>Có</th>
+                    </tr>
+                    <tr>
+                      <th>Tính năng:</th>
+                      <th>AI Camera <br>
+                        Ban đêm (Night Mode) <br>
+                        Chuyên nghiệp (Pro)<br>
+                        Chạm lấy nét<br>
+                        Chống rung quang học (OIS)<br>
+                        Góc rộng (Wide)<br>
+                        Góc siêu rộng (Ultrawide)<br>
+                        HDR<br>
+                        Làm đẹp<br>
+                        Lấy nét theo pha (PDAF)<br>
+                        Nhận diện khuôn mặt<br>
+                        Quay chậm (Slow Motion)<br>
+                        Toàn cảnh (Panorama)<br>
+                        Tự động lấy nét (AF)<br>
+                        Xóa phông<br>
+                        Zoom quang học</th>
+                    </tr>
+                    <tr class="table-active">
+                      <th colspan="2" class="fw-bold">Camera trước</th>
+                    </tr>
+                    <tr>
+                      <th>Độ phân giải:</th>
+                      <th>11.1MP</th>
+                    </tr>
+                    <tr>
+                      <th>Tính năng: </th>
+                      <th>HDR <br>
+                        Làm đẹp <br>
+                        Nhận diện khuôn mặt <br>
+                        Quay video 4K <br>
+                        Quay video Full HD <br>
+                        Tự động lấy nét (AF) <br>
+                        Xóa phông</th>
+                    </tr>
+                    <tr class="table-active">
+                      <th colspan="2" class="fw-bold">Bộ nhớ & lưu trữ</th>
+                    </tr>
+                    <tr>
+                      <th>RAM:</th>
+                      <th>12 GB</th>
+                    </tr>
+                    <tr>
+                      <th>Bộ nhớ trong:</th>
+                      <th>128 GB, 256 GB, 512 GB</th>
+                    </tr>
+                    <tr class="table-active">
+                      <th colspan="2" class="fw-bold">Hệ điều hành & CPU</th>
+                    </tr>
+                    <tr>
+                      <th>Hê điều hành:</th>
+                      <th>Android 12</th>
+                    </tr>
+                    <tr>
+                      <th>CPU:</th>
+                      <th>Google Tensor (8 lõi)</th>
+                    </tr>
+                    <tr>
+                      <th>Xung nhịp CPU:</th>
+                      <th>	2x2.80 GHz Cortex-X1 & 2x2.25 <br>
+                         GHz Cortex-A76 & 4x1.80 GHz Cortex-A55</th>
+                    </tr>
+                    <tr>
+                      <th>GPU:</th>
+                      <th>Mali-G78 MP20</th>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="modal-review" class="is-hidden">
+        <div class="modal-wrapper">
+          <div class="overLay-review"></div>
+          <div class="modal-config">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg close-modal-review" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+            <h5 class="fw-bold text-center mt-3">Bài viết giới thiệu điện thoại Google Pixel 6 Pro</h5>
+            <div class="row justify-content-center mt-3">
+              <div class="col col-lg-8">
+                <p>Pixel 6 và Pixel 6 Pro đã được Google giới thiệu tại sự kiện Pixel Fall Launch vào hôm 19/10 vừa qua. Bộ đôi Pixel 6 mới mang tới cực kỳ nhiều nâng cấp đáng chú ý, có thể coi như là một bản nâng cấp vượt trội trong toàn bộ dòng sản phẩm Pixel từ trước tới nay, từ thiết kế, camera, hiệu năng với vi xử lý “nhà làm” đầu tiên…</p>
+                <h6 class="fw-bold mt-5">Tổng quan về thiết kế</h6>
+                <p class="mb-3">
+                  Về ngoại hình, Pixel 6 Pro năm nay đã có một thiết kế khác và mới lạ hoàn toàn, khác biệt hoàn toàn với những chiếc Pixel trước đây. Toàn bộ thân máy được hoàn thiện từ chất liệu kính cường lực cùng khung viền nhôm chắc chắn. Trên Pixel 6 Pro, Google đã ưu ái sử dụng Gorilla Victus ở cả hai mặt trước và sau của máy.
+                </p>
+                <img src="assets/images/pixel6pro/Pixel-6-Pro-8-1024x1024.jpg" class="rounded img-fluid"  alt="" style="height: 707px;">
+                <p class="mt-3 mb-5">Máy có thiết kế dạng thanh, các viền làm bằng nhôm được bo cong và hoàn thiện bóng, dễ trầy xước. Màn hình được vát cong cùng với độ dày vừa phải làm cho cảm giác cầm nắm rất đầm và chắc. Điểm nổi bật trong thiết kế của máy đến từ cụm camera phía sau của máy. Cụm camera được đặt ngang, dày và lồi hơn hẳn so với lưng máy. Nếu nhìn trực diện từ phía sau, sẽ không có vấn đề gì cả, máy sẽ vẫn rất đẹp và ấn tượng. Chỉ khi chúng ta nghiêng máy, độ lồi của cụm camera mới được phô ra, nó thực sự rất lồi!</p>
+                <h5 class="fw-bold mt-3">Hiệu năng</h5>
+                <img src="assets/images/pixel6pro/pixel6pro3.jpg" alt="" class="img-fluid rounded">
+                <p class="mt-3 mb-5">Phiên bản mình đang có trên tay là phiên bản có dung lượng RAM là 8GB, bộ nhớ trong 128GB. Về con chip Tensor cây nhà lá vườn của Google, hiện tại vẫn chưa có quá nhiều thứ để nhắc đến trong bài trên tay này. Vật Vờ Studio sẽ sớm gửi đến các bạn bài đánh giá chi tiết hiệu năng của con chip này. Cùng chờ xem con chip mà Google hứa hẹn sẽ đem lại một trải nghiệm tốt nhất cho người dùng sẽ thể hiện như thế nào!
+
+                </p>
+                <h5 class="fw-bold">Màn hình</h5>
+                <img src="assets/images/pixel6pro/pixel6pro2.jpg" alt="" class="img-fluid rounded">
+                <p class="mt-3 mb-5">Về màn hình, Pixel 6 Pro được trang bị màn hình đục lỗ 6.71″ tấm nền LTPO Amoled 2K. Công Nghệ LTPO cho phép điều chỉnh tần số quét của màn hình từ 10-120Hz giúp tối ưu thời lượng pin của máy hơn. Cùng với sự tối ưu đến từ con chip Tensor “cây nhà lá vườn” Google đã hứa hẹn thời gian sử dụng sẽ vô cùng tốt với dung lượng pin 5003 mAh.</p>
+                <h5 class="fw-bold">Camera</h5>
+                <img src="assets/images/pixel6pro/pixel6pro1.jpg" alt="" class="img-fluid rounded">
+                <p class="mt-3 mb-5">Thông số không phải là điểm mạnh trên những chiếc điện thoại như thế này. Sự đặc biệt của nó đến từ những gì Google đã tối ưu bên trong cụm camera này. Pixel 6 Pro sử dụng cảm biến chính với độ phân giải 50MP to hơn, thu sáng tốt hơn, bổ sung camera Telephoto 4x và camera Ultra Wide cùng con chip cây nhà lá vườn tối ưu riêng cho việc chụp ảnh hứa hẹn sẽ đem lại chất lượng chụp ảnh vượt trội hơn tất cả. Google đã hứa hẹn Pixel 6 Pro sẽ có khả năng chụp ảnh cực kỳ ấn tượng, sự thật ra sao các bạn hãy chờ bài đánh giá chi tiết của mình nhé! Ngoài ra, trên Pixel 6 pro cũng được trang bị camera selfie với độ phân giải 12MP.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-5 bg-dark">
+      <section>
+        <div class="container text-white">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12 text-center text-md-start">
+              <div class="title d-flex align-items-baseline text-uppercase justify-content-center justify-content-md-start">
+                <i class="fa fa-solid fa-gem mr-3"></i>
+                <h6 class="">Giới thiệu</h6>
+              </div>
+              <div class="desc">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Blanditiis sed quam eveniet, praesentium id quae doloremque
+                  non officia nesciunt. Aliquid a blanditiis molestias!
+                  Repellendus aperiam nemo incidunt! Non, quas minus?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12 ">
+              <h6 class="text-uppercase text-center text-md-start">Chính sách</h6>
+              <ul class="p-0 text-center text-md-start">
+                <li class="pt-3">Chính sách giao nhận</li>
+                <li class="pt-3">Chính sách đổi trả hàng</li>
+                <li class="pt-3">Phương thức thanh toán</li>
+                <li class="pt-3">Chế độ bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12">
+              <h6 class="text-uppercase text-center text-md-start">Hỗ trợ khách hàng</h6>
+              <ul class="p-0 text-center text-md-start">
+                <li class="pt-3">Giá cả</li>
+                <li class="pt-3">Đổi trả</li>
+                <li class="pt-3">Đặt hàng</li>
+                <li class="pt-3">Bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12">
+              
+                <h6 class="text-uppercase text-center text-md-start">Liên hệ</h6>
+                <ul class="p-0 text-center text-md-start">
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Hà Nội: 
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    298 Đ.Cầu Diễn, Minh Khai, Bắc Từ Liêm
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Hồ Chí Minh: 
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    2 Võ Oanh, Phường 25, Bình Thạnh
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-phone mr-3"></i>
+                    HotLine: 0123456789
+                  </li>
+                </ul>
+              </div>
+          </div>
+            <div class="row justify-content-center align-items-center mb-3 flex-column flex-lg-row">
+              <div class="col-auto col-xs-12">
+                <h6>Đăng ký nhận thông tin khuyến mãi</h6>
+              </div>
+              <div class="col col-md-5 col-xs-12">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              </div>
+              <div class="col-auto col-xs-12 mt-3 mt-lg-0">
+                <a href="#" class="btn btn-dark border">Đăng ký</a>
+              </div>
+            </div>
+            <div class="row custom-bg p-3 m-3 text-center">
+              <div class="col">© 2021 Copyright: Github</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- SCRIPT -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script src="Product.js"></script>
+    <script src="products-detail.js"></script>
+  </body>
+</html>

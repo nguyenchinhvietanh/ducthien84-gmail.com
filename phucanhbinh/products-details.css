@@ -1,0 +1,133 @@
+/* Header */
+.search-icon {
+    color: white;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+
+.rv-desc {
+    font-size: 16.5px;
+    line-height: 23px;
+}
+.view-btn {
+    width: 240px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+/* STORAGE */
+.storage {
+    margin-bottom: 10px;
+}
+.storage span,
+.color span{
+    display: inline-block;
+}
+.storage a,
+.color a {
+    color: #333;
+    padding: 2px 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+} 
+.storage_1.act,
+.color_1.act {
+    border: 1px solid #7a7ae9;
+}  
+.old-price, 
+.new-price {
+    font-size: 18px;
+}
+.list-bonus li {
+    list-style-type: circle;
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+.installment {
+    padding-right: 0;
+}
+.installment-card {
+    padding-left: 3px;
+}
+/* Modal Config */
+.modal-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.overLay,
+.overLay-review {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+.modal-config {
+    position: absolute;
+    background-color: white;
+    top: 1px;
+    z-index: 4;
+    border-radius: 8px;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;  
+    box-shadow: 2px 3px 5px 5px rgb(0 0 0 / 40%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+/* Custom scrollbar */
+.modal-config::-webkit-scrollbar {
+    width: 10px;
+}
+.modal-config::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 12px;
+
+}
+.modal-config::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 12px;
+}
+.modal-config::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+.close-modal,
+.close-modal-review {
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+    top: 8px;
+    width: 20px;
+}
+/* Media */
+@media only screen and (max-width: 768px) {
+    .user__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-group {
+        width: 100%!important;
+    }
+    .login {
+        margin-right: 0 !important;
+        padding:5px;
+    }
+    .cart {
+        margin-right: 0 !important;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .btn-buy {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

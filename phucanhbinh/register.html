@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dịch vụ chăm sóc máy tính</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="home-page.html">Trang chủ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DỊCH VỤ CHĂM SÓC LAPTOP-PC
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">THAY MÀN HÌNH LAPTOP TẠI NHÀ</a></li>
+                  <li><a class="dropdown-item" href="#">NÂNG CẤP RAM-BỘ NHỚ</a></li>
+                  <li><a class="dropdown-item" href="#">BÁO GIÁ SỬA CHỮA LAPTOP-PC</a></li>
+                  <li><a class="dropdown-item" href="#">TƯ VẤN LỖI LAPTOP-PC</a></li>
+                  <li><a class="dropdown-item" href="#">VỆ SINH LAPTOP-PC</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="search">
+              <p class="text-white mr-3">Tìm kiếm   </p>
+            </div>
+            <form style="width: 30%" class="d-flex form-group" role="search">
+              <i class="fa-solid fa-magnifying-glass search-icon mr-3"></i>
+              <input
+                class="form-control me-2 input-search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <div class="user__input">
+              <a href="" class="login text-white mr-3">Tài khoản</a>
+              <a href="cart-page.html" class="cart text-white">Giỏ hàng</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main id="main">
+       <section id="login-form">
+          <div class="container pt-5 pb-5">
+            <div class="row justify-content-center pt-5 mb-5">
+              <div class="col-4 border p-3">
+                <h4 class="text-center mb-4">Đăng nhập</h4>
+                <form class="row gy-3 justify-content-center was-validated">
+                  <div class="mb-3 mt-3">
+                    <label for="uname" class="form-label">Tên đăng nhập:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                    <div class="valid-feedback text-success">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                    <div class="valid-feedback text-success">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                    <div class="col-12 d-flex justify-content-center mb-1">
+                      <button class="btn btn-danger w-100" type="submit">Đăng nhập</button>
+                    </div>
+                    <div class="mb-1 row">
+                      <div class="col-md-10">
+                          <a href="#">
+                              <p class="text-start text-primary-emphasis fs-6" style="cursor: pointer;">Quên mật khẩu</p>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="mb-1 row justify-content-center">
+                      <div class="col-md-10">
+                          <p class="other text-uppercase text-center p-3">or</p>
+                      </div>    
+                    </div>
+                    <div class="mb-4 row justify-content-center">
+                      <div class="col-md-12">
+                          <div class="row justify-content-between">
+                              <div class="col-md-6 d-flex justify-content-end">
+                                  <a href="#" class="btn btn-primary">Kết nối Facebook</a>
+                              </div>
+                              <div class="col-md-6 d-flex justify-content-around">
+                                  <a href="#" class="btn btn-danger">Kết nối Google</a>
+                              </div>
+                          </div>
+                      </div>    
+                    </div>
+                    <div class="mb-4 row justify-content-center">
+                      <div class="col-sm-10">
+                          <p class="text-center fs-6">Bạn chưa có tài khoản <a href="#" class="text-danger regis-link">Đăng ký</a> </p>
+                      </div>    
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+       </section>
+       <section id="regis-form" class="d-none">
+        <div class="container pt-5 pb-5">
+          <div class="row justify-content-center pt-5 mb-5">
+            <div class="col-4 border p-3">
+              <h4 class="text-center mb-4">Đăng Ký</h4>
+              <form class="row gy-3 justify-content-center was-validated">
+                <div class="mb-3 mt-3">
+                  <label for="uname" class="form-label">Tên đăng nhập:</label>
+                  <input type="text" class="form-control" id="unamer" placeholder="Enter username" name="uname" required>
+                  <div class="valid-feedback text-success">Valid.</div>
+                  <div class="invalid-feedback">Vui lòng nhập trường này.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control password" id="pwdr" placeholder="Enter password" name="pswd" required>
+                  <div class="valid-feedback text-success">Valid.</div>
+                  <div class="invalid-feedback">Vui lòng nhập trường này.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Repeat Password:</label>
+                  <input type="password" class="form-control confirm-password" id="pwrd" placeholder="Enter password" name="pswd" required>
+                  <div class="valid-feedback text-success">Valid.</div>
+                  <div class="invalid-feedback">Vui lòng nhập trường này.</div>
+                  <div class="confirm-msg"></div>
+                </div>
+                  <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-danger w-100" type="submit">Đăng Ký</button>
+                  </div>
+                  <div class="mb-1 row justify-content-center">
+                    <div class="col-md-10">
+                        <p class="other text-uppercase text-center p-3">or</p>
+                    </div>    
+                  </div>
+                  <div class="mb-4 row justify-content-center">
+                    <div class="col-md-12">
+                        <div class="row justify-content-between">
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <a href="#" class="btn btn-primary">Kết nối Facebook</a>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-around">
+                                <a href="#" class="btn btn-danger">Kết nối Google</a>
+                            </div>
+                        </div>
+                    </div>    
+                  </div>
+                  <div class="mb-4 row justify-content-center">
+                    <div class="col-sm-10">
+                        <p class="text-center" style="font-size: 12px;">Bằng việc đăng kí, bạn đã đồng ý với <a href="#" class="text-primary text-desc">Điều khoản dịch vụ</a> & <a href="" class="text-primary text-desc"> Chính Sách Bảo Mật</a></p>
+                    </div>    
+                  </div>
+                  <div class="mb-4 row justify-content-center">
+                    <div class="col-sm-10">
+                        <p class="text-center fs-6">Bạn đã có tài khoản <a href="#" class="text-danger login-link">Đăng nhập</a> </p>
+                    </div>    
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+       </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-5 bg-dark">
+      <section>
+        <div class="container text-white">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12 text-center text-md-start">
+              <div class="title d-flex align-items-baseline text-uppercase justify-content-center justify-content-md-start">
+                <i class="fa fa-solid fa-gem mr-3"></i>
+                <h6 class="">Giới thiệu</h6>
+              </div>
+              <div class="desc">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Blanditiis sed quam eveniet, praesentium id quae doloremque
+                  non officia nesciunt. Aliquid a blanditiis molestias!
+                  Repellendus aperiam nemo incidunt! Non, quas minus?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12 ">
+              <h6 class="text-uppercase text-center text-md-start">Chính sách</h6>
+              <ul class="p-0 text-center text-md-start">
+                <li class="pt-3">Chính sách giao nhận</li>
+                <li class="pt-3">Chính sách đổi trả hàng</li>
+                <li class="pt-3">Phương thức thanh toán</li>
+                <li class="pt-3">Chế độ bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12">
+              <h6 class="text-uppercase text-center text-md-start">Hỗ trợ khách hàng</h6>
+              <ul class="p-0 text-center text-md-start">
+                <li class="pt-3">Giá cả</li>
+                <li class="pt-3">Đổi trả</li>
+                <li class="pt-3">Đặt hàng</li>
+                <li class="pt-3">Bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-sm-3 col-xs-12">
+              
+                <h6 class="text-uppercase text-center text-md-start">Liên hệ</h6>
+                <ul class="p-0 text-center text-md-start">
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Hà Nội: 
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    298 Đ.Cầu Diễn, Minh Khai, Bắc Từ Liêm
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Hồ Chí Minh: 
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    2 Võ Oanh, Phường 25, Bình Thạnh
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-phone mr-3"></i>
+                    HotLine: 0123456789
+                  </li>
+                </ul>
+              </div>
+          </div>
+            <div class="row justify-content-center align-items-center mb-3 flex-column flex-lg-row">
+              <div class="col-auto col-xs-12">
+                <h6>Đăng ký nhận thông tin khuyến mãi</h6>
+              </div>
+              <div class="col col-md-5 col-xs-12">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              </div>
+              <div class="col-auto col-xs-12 mt-3 mt-lg-0">
+                <a href="#" class="btn btn-dark border">Đăng ký</a>
+              </div>
+            </div>
+            <div class="row custom-bg p-3 m-3 text-center">
+              <div class="col">© 2021 Copyright: Github</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- SCRIPT -->
+    
+    <script src="validator.js"></script>
+  </body>
+</html>

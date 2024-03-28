@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dịch vụ chăm sóc máy tính</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="home-page.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href=".base.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Trang chủ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                    DỊCH VỤ CHĂM SÓC LAPTOP-PC
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">THAY MÀN HÌNH LAPTOP TẠI NHÀ</a></li>
+                    <li><a class="dropdown-item" href="#">NÂNG CẤP RAM-BỘ NHỚ</a></li>
+                    <li><a class="dropdown-item" href="#">BÁO GIÁ SỬA CHỮA LAPTOP-PC</a></li>
+                    <li><a class="dropdown-item" href="#">TƯ VẤN LỖI LAPTOP-PC</a></li>
+                    <li><a class="dropdown-item" href="#">VỆ SINH LAPTOP-PC</a></li>
+                    <li><a class="dropdown-item" href="#">PHỤ KIỆN LAPTOP-PC</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="search">
+              <p class="text-white mr-3">Tìm kiếm  :</p>
+            </div>
+            <form style="width: 30%" class="d-flex form-group" role="search">
+              <i class="fa-solid fa-magnifying-glass search-icon mr-3"></i>
+              <input
+                class="form-control me-2 input-search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <div class="user__input">
+              <a href="register.html" class="login text-white mr-3">Tài khoản</a>
+              <a href="cart-page.html" class="cart text-white">Giỏ hàng</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main id="main">
+      <!-- Banner -->
+      <section id="banner">
+          <div class="home-banner container">
+              <div class="row">
+                  <div class="left-banner">
+                      <i class="fa-solid fa-chevron-left btn-prev"></i>
+                      <div class="slider__dot-list">
+                          <span class="slider__dot-item is-active" data-index="0"></span>
+                          <span class="slider__dot-item" data-index="1"></span>
+                          <span class="slider__dot-item" data-index="2"></span>
+                          <span class="slider__dot-item" data-index="3"></span>
+                          <span class="slider__dot-item" data-index="4"></span>
+                      </div>
+                      <div class="slider__main">
+                          <div class="slide__wrapper">
+                              <div class="mySlides">
+                                  <img src="baner1.png" alt="" class="img-fluid" />
+                              </div>
+                              <div class="mySlides">
+                                  <img src="baner2.png" alt="" class="img-fluid" />
+                              </div>
+                              <div class="mySlides">
+                                  <img src="baner3.png" alt="" class="img-fluid" />
+                              </div>
+                              <div class="mySlides">
+                                  <img src="baner4.png" alt="" class="img-fluid" />
+                              </div>
+                              <div class="mySlides">
+                                  <img src="baner5.png" alt="" class="img-fluid" />
+                              </div>
+                          </div>
+                      </div>
+                      <i class="fa-solid fa-chevron-right btn-next"></i>
+                  </div>
+                  <div class="right-banner">
+                      <img src="Rbanner.png" alt="" />
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- deal -->
+      <section id="deal">
+          <div class="container">
+              <h3 class="border p-lg-3 p-sm-2 italic">Các dịch vụ chăm sóc</h3>
+              <div class="row mt-3">
+              </div>
+              <h2>Bảng Giá Dịch Vụ Chăm Sóc Máy Tính</h2>
+
+              <table>
+                <tr>
+                  <th>Dịch vụ</th>
+                  <th>Mô tả</th>
+                  <th>Giá Tiền</th>
+                </tr>
+                <tr>
+                  <td>Diệt virus và malware</td>
+                  <td>Quét và loại bỏ virus, malware</td>
+                  <td>200k-500k</td>
+                </tr>
+                <tr>
+                  <td>Cài đặt phần mềm</td>
+                  <td>Cài đặt và cập nhật phần mềm</td>
+                  <td>200k-400k</td>
+                </tr>
+                <tr>
+                  <td>Nâng cấp phần cứng</td>
+                  <td>Nâng cấp RAM, ổ cứng, card đồ họa, vv.</td>
+                  <td>500k-1 triệu</td>
+                </tr>
+                <tr>
+                  <td>Sửa chữa phần cứng</td>
+                  <td>Kiểm tra và sửa chữa phần cứng</td>
+                  <td>tùy thuộc vào lỗi</td>
+                </tr>
+                <tr>
+                  <td>Định cấu hình mạng</td>
+                  <td>Cài đặt và cấu hình mạng</td>
+                  <td>$80 - $150</td>
+                </tr>
+                <tr>
+                  <td>Sao lưu và phục hồi</td>
+                  <td>Thiết lập và thực hiện sao lưu, khôi phục dữ liệu</td>
+                  <td>tùy thuộc vào lỗi</td>
+                </tr>
+                <tr>
+                  <td>Tối ưu hóa hiệu suất</td>
+                  <td>Tinh chỉnh hệ thống để tăng hiệu suất</td>
+                  <td>100k-300k</td>
+                </tr>
+                <tr>
+                  <td>Hỗ trợ từ xa</td>
+                  <td>Hỗ trợ qua mạng Internet</td>
+                  <td>100k-200k</td>
+                </tr>
+                <tr>
+                  <td>Hỗ trợ 24/7</td>
+                  <td>Hỗ trợ khẩn cấp cả ngày lẫn đêm</td>
+                  <td>200k-500k</td>
+                </tr>
+              </table>
+          </div>
+      </section>
+  </main>
+  
+    <footer id="footer" class="pt-5 bg-dark">
+      <section>
+        <div class="container text-white">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="title d-flex align-items-baseline text-uppercase">
+                <i class="fa fa-solid fa-gem mr-3"></i>
+                <h6>Giới thiệu</h6>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <h6 class="text-uppercase">Chính sách</h6>
+              <ul class="p-0">
+                <li class="pt-3">Chính sách giao nhận</li>
+                <li class="pt-3">Chính sách đổi trả hàng</li>
+                <li class="pt-3">Phương thức thanh toán</li>
+                <li class="pt-3">Chế độ bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <h6 class="text-uppercase">Hỗ trợ khách hàng</h6>
+              <ul class="p-0">
+                <li class="pt-3">Giá cả</li>
+                <li class="pt-3">Đổi trả</li>
+                <li class="pt-3">Đặt hàng</li>
+                <li class="pt-3">Bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              
+                <h6 class="text-uppercase">Liên hệ</h6>
+                <ul class="p-0">
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Hà Nội: 
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-home mr-3"></i>
+                    Số 1 Phố Xốm, Phú Lãm, Hà Đông
+                  </li>
+                  <li class="pt-3">
+                    <i class="fa fa-solid fa-phone mr-3"></i>
+                    HotLine: 0123456789
+                  </li>
+                </ul>
+              </div>
+          </div>
+            <div class="row justify-content-center align-items-center mb-3">
+              <div class="col col-auto">
+                <h6>Đăng ký nhận thông tin khuyến mãi</h6>
+              </div>
+              <div class="col col-md-5">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              </div>
+              <div class="col col-auto">
+                <a href="#" class="btn btn-dark border">Đăng ký</a>
+              </div>
+            </div>
+            <div class="row custom-bg p-3 m-3 text-center">
+              <div class="col">© 2024 Copyright: chu ngoc han </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="valiables.js"></script>
+    <script src="gallery.js"></script>
+    <script src="data.js"></script>
+    <script src="Product.js"></script>
+    <script src="home-page.js"></script>
+  </body>
+</html>

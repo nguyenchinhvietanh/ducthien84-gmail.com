@@ -1,0 +1,12 @@
+const producta = new Product();
+producta.saveCart();
+producta.loadCart();
+producta.addToCart();
+const minusBtn = document.querySelectorAll(".minus-btn");
+const addBtn = document.querySelectorAll(".add-btn");
+const totalProduct = document.querySelectorAll(".total");
+const delBtn = document.querySelectorAll(".delete__product-btn");
+producta.minusButton(minusBtn);
+producta.addButton(addBtn);
+producta.deleteCart(delBtn);
+producta.sumPrice();
